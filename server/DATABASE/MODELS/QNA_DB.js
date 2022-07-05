@@ -1,0 +1,1 @@
+// const QnAModel = mongoose.model("QnAModel", new mongoose.Schema({ Username: String, Date: { type: Date, default: Date.now }, Question: String, Answer: String, isAnswered: Boolean, Likes: Number}));

@@ -1,0 +1,624 @@
+body{
+  padding: 0;
+  margin-top: 120px;
+
+  box-sizing: border-box;
+
+  background: #FAF0F4;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: black;
+}
+
+.DeleteIcon{
+  float: right;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.icon:hover {
+  opacity: 0.6;
+  background-color: #8ca2be;
+  border: 1px solid #2d6758;
+  color: #2d6758;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* --------------------- CONTAINER --------------------- */
+
+.container{
+  width: 70% !important;
+  margin: 5% auto !important;
+}
+
+.BigContainer{
+  width: 90% !important;
+  margin: 5% 5% !important;
+}
+
+.FullWidthContainer {
+  width: 100%;
+}
+
+.SmallHeightContainer {
+  height: 80%;
+}
+
+.FixedHeightContainer {
+  height: 50vh; 
+  padding: 7px;
+}
+
+.CurvedContainer {
+  box-sizing: content-box;
+  border-radius: 3rem ;
+  
+  box-shadow: 2px 4px 5px #0000008c;
+
+  width: 100%;
+  height: 100%;
+
+  transition: box-shadow 1s;
+  border: 1px solid #eee;
+}
+
+.CurvedContainer:hover {
+  box-shadow: 0px 0px 30px #2d6758;
+  cursor: pointer;
+}
+
+.BlogBox {
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+.LoginBox {
+  width: 25rem !important;
+  height: 30rem !important;
+  text-align: center;
+}
+
+/* --------------------- BOX-COLOR --------------------- */
+
+.AnotherShadeBox {
+  background-color: #FF9A3C;
+}
+
+.DarkGreenBox {
+  /* background-color: #042613; */
+  /* background-color: #CADEFC; */
+  background-color: #142850;
+  width: 100%;
+  height: auto;
+  margin-top: -1vh;
+}
+ 
+.LightGreenBox {
+  /* background-color: #798777; */
+  background-color: white;
+  width: 100%;
+  height: 70%;
+  position: relative;
+  top: 5vh;
+}
+
+.VyLightGreenBox {
+  /* background-color: #E4EFE7; */
+  background-color: #2D4059;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  top: 5vh;
+}
+
+#borderedBox {
+  /* border: 3px solid #000000;
+  border-bottom: 3px solid #000000 !important; */
+  padding: 4% 10%;
+  z-index: 0;
+}
+
+.BoxInnerInner {
+  height: 60% !important;
+  margin-bottom: 4%;
+}
+
+.carousel-caption { 
+  position:static; 
+}
+
+/* --------------------- MARGIN --------------------- */
+
+.TopNavMargin {
+  margin-top: 20vh !important;
+}
+
+.DecreaseTopMargin {
+  margin-top: -2% !important;
+}
+
+/* --------------------- NAVBAR --------------------- */
+
+.LogoImg {
+  position: absolute;
+  top: auto;
+  left: 6vh;
+  width: 8vh;
+}
+
+.NavBarText{
+  font-size: 4.5vh;
+  text-decoration: none;
+  margin: auto 3.5% ;
+  color: #E4EFE7;
+}
+
+.NavBarText:hover {
+  color: #2d6758;
+  text-decoration: none;
+}
+
+header ul {
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  list-style-type: none;  
+}
+
+li {
+  list-style-type: none;  
+}
+
+.NavBarBox {
+  padding-top: 1vh;
+}
+
+header{
+  /* background-color: #042613f1; */
+  /* background-color: #B8B0B0; */
+  background-color: #142850;
+  height: 5rem;
+  width: 100%;
+
+  padding: auto;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  border-bottom-style: solid;
+  border-bottom-color: #2d6758;
+}
+
+footer {
+  /* bottom: 0; */
+  height: 100% !important;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+
+/* --------------------- TEXT --------------------- */
+
+.MidText {
+  text-align: center;
+}
+
+.UppercaseText {
+  text-transform: uppercase;
+}
+
+.CursiveFont {
+  /* font-family: 'Corinthia'; */
+  font-family: 'Cormorant SC', serif;
+  letter-spacing: -0.03em;
+  /* text-transform: capitalize; */
+  text-shadow: 0.2px 0.2px #000000;
+}
+
+.NonCursiveFont {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 2.4vw;
+  letter-spacing: -0.03em;
+}
+
+.VyLgFont {
+  font-size: 18vh;
+}
+
+.LgFont {
+  font-size: 10vh;
+}
+
+.MdFont {
+  font-size: 7vh !important;
+}
+
+.SmMdFont {
+  font-size: 3.2vh !important;
+}
+
+.SmFont {
+  font-size: 4vh;
+}
+
+.VySmFont {
+  font-size: 2.2vh;
+}
+
+.LightGreenFontShade {
+  /* color: #E4EFE7; */
+  color: #8ca2be;
+}
+
+.GreenFontShade {
+  /* color: #064635; */
+  color: #000000;
+}
+
+.GreyFontShade {
+  /* color: #798777; */
+  color: #a1acb4;
+}
+
+.ThirdFontShade {
+  color: #142850;
+}
+
+.TextFullExpand {
+  width: 100%;
+}
+
+.LineTextLine {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.LineTextLine::before, .LineTextLine::after, 
+.LightLine.LineTextLine::before, .LightLine.LineTextLine::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.LightLine.LineTextLine::before,
+.LightLine.LineTextLine::after {
+  border-bottom: 1px solid #8ca2be;
+}
+
+.LineTextLine:not(:empty)::before,.LineTextLine:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.Error {
+  color: red;
+}
+/* --------------------- HOME PAGE --------------------- */
+
+.BigHeadingBox {
+  width: 100vw !important;
+  height: auto;
+}
+
+.ToRight {
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
+.ToCenter {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.TotallyCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --------------------- PICTURE --------------------- */
+
+.RoundImage {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 40vh;
+  width: 40vh;
+  /* border: 0.3vh solid #000; */
+}
+
+.GreyPicture {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0*/
+  filter: grayscale(100%);
+  transition: 2s;
+}
+
+.GreyPicture:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0*/
+  filter: grayscale(0%);
+}
+
+.maskImage {
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+} 
+
+.ImageBox {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.ImageOuterBox {
+    width: 100%;
+    height: 100%;
+    /* border: 7px solid black; */
+}
+
+.ProfilePic {
+  width: 70vh;
+  height: 50%;
+  margin-top: 3vh;
+  margin-right: 3%;
+}
+
+.Shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+/* --------------------- INPUTS --------------------- */
+
+.InputFocusGreen:focus {
+  background-color: #E4EFE7;
+}
+
+.Input, .SearchInput {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+
+.SearchInput {
+  text-align: right;
+  display: inline !important;
+  padding: 1%;
+  /* margin: 3%; */
+  width: 50vh;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.2vh solid #2d6758;
+
+  color: #2d6758;
+
+  transition: border .15s ease-in-out,width .15s ease-in-out;
+
+  float: right;
+}
+
+input[type=text]:hover, 
+input[type=password]:hover,
+input[type=email]:hover {
+  border: 0.2vh solid #2d6758;
+  background-color: rgba(173, 216, 230, 0.511);
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus {
+  border: 0.2vh solid #2d6758;
+  width: 100%;
+  color: #48466D;
+  background-color: lightblue;
+}
+
+input[type=text]::placeholder,
+input[type=password]::placeholder,
+input[type=email]::placeholder  {
+  color: #2d6758;
+}
+
+textarea {
+  width: 130px;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  
+  transition: height 0.4s ease-in-out !important;
+}
+
+textarea:focus {
+  height: 130px;
+}
+
+.InputLabel {
+  color: rgb(212, 184, 184);
+}
+
+/* --------------------- BUTTON --------------------- */
+
+.ButtonStyle {
+  background-color: #142850;
+  color: #E4EFE7;
+  border-color: #E4EFE7;
+  padding: 1% 12%;
+  margin-top: 7px;
+  font-size: larger;
+}
+
+.ButtonStyle:hover, .ButtonStyle:active{
+  background-color: #FFFFFF !important;
+  color: #142850 !important;
+  border-color: #142850 !important;
+}
+
+.ButtonStyle:active{
+  background-color: #FFFFFF !important;
+  color: #142850 !important;
+  border-color: #142850 !important;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.489) !important;
+  transform: translateY(2px);
+}
+
+/* --------------------- CONTACT US --------------------- */
+
+.Contact {
+  border-radius: 100%;
+  background-color: #C70039;
+  text-align: center;
+  position: absolute;
+  top: 1%;
+  right: 8%;
+  height: 40vh;
+  width: 40vh;
+
+  cursor: pointer;
+
+  /* position: relative; */
+  transition: 2s;
+}
+
+.Contact:hover {
+  background-color: #130408;
+}
+
+.FontAwesomeIcon {
+  margin: auto 7%;
+}
+
+/* --------------------- CENTRAL ALIGN --------------------- */
+
+.outer {
+  display: table;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* height: 100%;
+  width: 100%; */
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* Whatever width you want */
+}
+
+/* --------------------- FLOATING BUTTON --------------------- */
+
+.QuesBox {
+  background-color: white;
+  width: 70vw !important;
+  height: 3rem !important;
+
+  border-radius: 1rem;
+
+  padding: 30% !important;
+  padding-right: 5rem;
+  
+  position: absolute;
+  bottom: 1rem;
+  right: 4rem;
+
+  text-align: right;
+}
+
+.AddQues {
+  border-radius: 100%;
+  padding: auto;
+  width: 15vh;
+  height: 15vh;
+  background-color: #142850;
+  border: 2px solid #8ca2be;
+  position: sticky;
+  bottom: 10vh;
+  float: right;
+  margin-right: 5rem;
+  z-index: 1;
+}
+
+.AddQues:hover {
+  background-color: #8ca2be;
+  border: 3px solid #2d6758;
+  color: #2d6758;
+  cursor: pointer;
+}
+
+/* --------------------- SMALL SCREEN --------------------- */
+
+@media screen and (max-width: 767px) {
+  body{
+    text-align: center;
+  }
+
+  header .container{
+      height: 60px;
+  }
+
+  header h3{
+      float: left;
+
+      font-size: 18px;
+
+      margin-left: 20px;
+  }
+
+  header i{
+      font-size: 30px;
+      font-weight: 50;
+      
+      margin-right: 20px;
+  }
+
+  form input, form button{
+  /*.Item-input, .Price-input, .Add-Item-btn{ */
+      width: 70%;
+      height: 50px;
+
+      text-align: center;
+  }
+
+  button{
+      margin: 20px auto 60px;
+      width: 10rem;
+  }
+}
+
+
+.ContactsIconAndText {
+  width: 100px !important;
+}
