@@ -24,8 +24,8 @@ app.use(bodyParser.json());
 //----------------------- ----------------------- -----------------------
 
 app.get("/", (req, res) => {
-  console.log("Haan bol");
-  res.json("Haan bol")
+  // console.log("Haan bol");
+  res.json("Working")
 } );
 
 // app.get("/login", (req, res) => {

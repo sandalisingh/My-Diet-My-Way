@@ -5,6 +5,7 @@ body{
   box-sizing: border-box;
 
   background: #FAF0F4;
+  background-image: url("../public/doodle.gif");
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -87,6 +88,12 @@ body{
 }
 
 /* --------------------- BOX-COLOR --------------------- */
+
+.PastelGreenBackground {
+  background-color: #CADEDF;
+  padding: 1%;
+
+}
 
 .AnotherShadeBox {
   background-color: #FF9A3C;

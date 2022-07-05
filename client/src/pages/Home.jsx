@@ -16,7 +16,8 @@ function Home(){
                 Content="Hi! I'm Rashu and I'm A Certified Health Nutritionist "
             /> 
             <CarouselBigBox Title="Frequently Asked Questions"/>
-            <Highlights/>
+            <div className="PastelGreenBackground">
+            <Highlights /></div>
             <FooterForm/>
         </div>
     );

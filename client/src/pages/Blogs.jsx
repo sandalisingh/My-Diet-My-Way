@@ -42,7 +42,7 @@ function Blogs(){
     
     return(
         <div ><br></br>
-        <Row className='container'>
+        <Row className='PastelGreenBackground container'>
         <Col xs={12} md={12} lg={2}>
             <LineTitle style={{display:"block"}} NoLine={true} Title="Blogs"/>
         </Col><Col xs={12} md={12} lg={10}>
