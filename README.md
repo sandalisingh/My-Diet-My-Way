@@ -2,6 +2,12 @@
 
 A Website to provide Online Consultations to clients who seek comprehensive and organized diet charts from Dietitian Rashu Malhotra
 
+## TECHNOLOGIES USED
+<hr>
+- FRONT END - HTML, CSS, Javascript, ReactJs
+- BACK END - NodeJs
+- DATABASE - MongoDB (Mongoose)
+
 ## LOGIN PAGE
 
 <img width="1438" alt="Login" src="https://user-images.githubusercontent.com/77054645/179365369-0cc2d127-8c4a-4bb6-b446-b7a07ccd541e.png">
