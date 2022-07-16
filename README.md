@@ -8,17 +8,15 @@ A Website to provide Online Consultations to clients who seek comprehensive and 
 
 ## ABOUT PAGE
 
-![](https://user-images.githubusercontent.com/77054645/179364811-42ffa99e-0b35-4821-b5b1-69d13cbad344.gif)
-
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/77054645/179365145-9e7e1636-342f-41c2-acd2-c0d0d2560bdf.gif)
 
 ## ADD BLOG
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/77054645/179365267-50e8a660-7cd8-4066-87e4-78c57c6bfe70.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77054645/179365567-760782dd-0b3a-4cc9-8fca-93a93cc7c98a.gif)
 
 ## Q 'n' A PAGE
 
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/77054645/179365362-3e284df0-417e-41fc-b5f1-43cc863d466d.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77054645/179365637-0763ed6d-6ba7-4d0c-bcde-41b9cac8436d.gif)
 
 ## LOGIN PAGE
 
