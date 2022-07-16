@@ -11,7 +11,7 @@ function Login() {
   let  isError = false, LoggedInUser = null;
     
   const getData = () => {
-      let url = 'http://localhost:3001/loginUser'; //URL of the resource we want to fetch
+      let url = 'http://localhost:3001/login'; //URL of the resource we want to fetch
       fetch(url).then((response) => response.json()).then((receivedData) => setData(receivedData));
       // isSuccessfullyLoggedIn =  receivedData.isSuccessfullyLoggedIn;
       // if( isSuccessfullyLoggedIn === false && receivedData.isError === true) {

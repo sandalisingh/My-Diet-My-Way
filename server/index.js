@@ -5,7 +5,6 @@ const ejs = require('ejs');
 const path = require('path');
 const DB = require('./DATABASE/DB');
 var cors = require('cors');
-// var routes = require('./routes');
 
 var app = module.exports = express();
 
@@ -18,26 +17,12 @@ app.set('view engine', 'html')  // Without this you would need to supply the ext
 app.use( bodyParser.urlencoded({ extended : true }) );
 app.use(bodyParser.json());
 
-// routes(app);
-// app.use('/', routes); //sets up these routes on a base '/' route for your site
-
 //----------------------- ----------------------- -----------------------
 
 app.get("/", (req, res) => {
   // console.log("Haan bol");
   res.json("Working")
 } );
-
-// app.get("/login", (req, res) => {
-//   console.log("login");
-//   res.json("login")
-// } );
-
-// app.post("/login", (req, res) => {
-//   console.log(req.body.Email)
-//   console.log(req.body.Password)
-//   res.redirect('/login');
-// });
 
 //---------------------------------------- B L O G S-----------------------------------------------
 
@@ -51,40 +36,39 @@ app.get('/blogs/deletion', (req, res) => DB.BLOGS_DB.deleteBlog( req.query.delID
 
 app.get("/users", (req, res) => DB.USERS_DB.getUsersList().then( (result) => res.json(result)) );
 
-// app.get("/loginUser", (req, res) => DB.USERS_DB.loginUser()
-// .then( (result) => {
-//     console.log("\n\n/loginUser\n\n");
-//     let FinalData = { 
-//         isSuccessfullyLoggedIn : false,
-//         LoggedInUser : null,
-//         isError : false,
-//         ErrorMessage : null,
-//         isDietitian: false
-//     };
+app.get("/login", (req, res) => DB.USERS_DB.loginUser().then( (result) => {
+    console.log("\n\n/loginUser\n\n");
+    let FinalData = { 
+        isSuccessfullyLoggedIn : false,
+        LoggedInUser : null,
+        isError : false,
+        ErrorMessage : null,
+        isDietitian: false
+    };
 
-//     //----------- CHECK LOG IN
-//     if( result === true ) {
-//       FinalData.isSuccessfullyLoggedIn = true;
-//       FinalData.LoggedInUser = req.Username;
+    //----------- CHECK LOG IN
+    if( result === true ) {
+      FinalData.isSuccessfullyLoggedIn = true;
+      FinalData.LoggedInUser = req.Username;
 
-//       //------------------ CHECK DIETITIAN LOG IN
-//       if( DB.USERS_DB.LoggedInAsDietitian(req)) {
-//         console.log("\n\nDIETITIAN\n\n");
-//         FinalData.isDietitian = true;
-//       } 
+      //------------------ CHECK DIETITIAN LOG IN
+      if( DB.USERS_DB.LoggedInAsDietitian(req)) {
+        console.log("\n\nDIETITIAN\n\n");
+        FinalData.isDietitian = true;
+      } 
 
-//     } 
+    } 
     
-//     //----------- NOT LOGGED IN
-//     else {
-//       console.log("\n\nNOT LOGGED IN\n\n")
-//       FinalData.isError = true;
-//       FinalData.ErrorMessage = "ERROR!";
-//     }
+    //----------- NOT LOGGED IN
+    else {
+      console.log("\n\nNOT LOGGED IN\n\n")
+      FinalData.isError = true;
+      FinalData.ErrorMessage = "ERROR!";
+    }
     
-//     res.json(FinalData);
-//   }
-// ));
+    res.json(FinalData);
+  }
+));
 
 //---------------------------------------- P O R T -----------------------------------------------
 

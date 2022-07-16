@@ -36,6 +36,7 @@ module.exports.UserExsits = async (entryUser) => {
         var1 = await UserLoginModel.findOne({Username: entryUser.Username, Email: entryUser.Email, Password:entryUser.Password});
     }
     if(var1) {
+        console.log(var1);
         return true;
     }
     return false;
