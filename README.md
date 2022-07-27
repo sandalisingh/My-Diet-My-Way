@@ -9,7 +9,7 @@ A Website to provide Online Consultations to clients who seek comprehensive and 
 
 ## LOGIN PAGE
 
-<img width="820" alt="Login" src="https://user-images.githubusercontent.com/77054645/179365369-0cc2d127-8c4a-4bb6-b446-b7a07ccd541e.png">
+<img width="70%" alt="Login" src="https://user-images.githubusercontent.com/77054645/179365369-0cc2d127-8c4a-4bb6-b446-b7a07ccd541e.png">
 
 ## HOME PAGE
 
